@@ -1,4 +1,22 @@
 <app-header />
 <main>
   <app-knowledge />
+  <app-experiences />
+
+
+  <section>
+    <h2>Carregando todos os projetos desenvolvidos...</h2>
+  </section>
+
+  @defer(on viewport){
+    <app-projects />
+  }@placeholder {
+    <section>
+      <h2>Carregando todos os projetos desenvolvidos...</h2>
+    </section>
+  }@error {
+    <section>
+      <h2>Ocorreu um erro ao eibir os projetos. Tente novamente</h2>
+    </section>
+  }
 </main>
