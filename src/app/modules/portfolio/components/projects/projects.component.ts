@@ -12,7 +12,7 @@ import { IProjects } from '../../interface/IProjects.interface';
 export class ProjectsComponent {
   public arrayProjects = signal<IProjects[]>([
     {
-      src : 'assets/img/projects/vfull.png',
+      src : 'vfull.png',
       alt : "Projeto Vida Full Stack",
       title : "Vida Full Stack",
       width: '100px',
@@ -25,5 +25,6 @@ export class ProjectsComponent {
         }
       ]
     }
+    
   ])
 }
