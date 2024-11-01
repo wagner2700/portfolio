@@ -15,7 +15,7 @@ export class ExperiencesComponent {
         strong :'Programador Junior',
         p:'Digimed 2020 - Atualmente',
       },
-      text:'<p>Programador junior</p>'
+      text:'<p>Desenvolvimento e manutenção de aplicações para software ERP, focando em automatização de processos industriais. Manipulação, consulta e criação de banco de dados  com SQL Server.</p>'
     }
   ])
 }
