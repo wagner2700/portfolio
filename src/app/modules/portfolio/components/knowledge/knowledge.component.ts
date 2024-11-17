@@ -12,9 +12,14 @@ export class KnowledgeComponent {
 
   public arrayKnowledge = signal<IKnowledge[]>([
     {
-      src : 'html5.svg',
+      src : 'CSharp.svg',
       alt: 'ícone de conhecimento de html5',
     },
+    {
+      src : 'java.svg',
+      alt: 'ícone de conhecimento de html5',
+    },
+    
     {
       src : 'css3.svg',
       alt: 'ícone de conhecimento de css3',

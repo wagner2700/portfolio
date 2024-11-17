@@ -21,16 +21,30 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src : 'vfull.png',
-      alt : "Projeto Vida Full Stack",
-      title : "Vida Full Stack",
-      width: '100px',
-      height: '51px',
-      description : '',
+      src : 'BarberBoss.png',
+      alt : "Barberboss",
+      title : "API - Barberboss",
+      width: '100%',
+      height: '100%',
+      description : 'API em .NET 8 para gerenciamento de despesas pessoais com DDD, testes unitários, e relatórios em PDF/Excel. Armazena dados via MySQL.',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'hhtps://vidafullstack.com.br'
+          name: 'Acesso o repositório',
+          href: 'https://github.com/wagner2700/BarberBoss-Api'
+        }
+      ]
+    },
+    {
+      src : 'GestaoVagas.png',
+      alt : "Gestão de Vagas",
+      title : "Aplicação de Gerenciamento de Vagas de RH",
+      width: '100%',
+      height: '100%',
+      description : 'Esta é uma aplicação Spring Boot que permite o gerenciamento de vagas de Recursos Humanos (RH)',
+      links: [
+        {
+          name: 'Acesso o repositório',
+          href: 'https://github.com/wagner2700/gestaoVagas'
         }
       ]
     }
