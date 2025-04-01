@@ -47,6 +47,20 @@ export class ProjectsComponent {
           href: 'https://github.com/wagner2700/gestaoVagas'
         }
       ]
+    },
+    {
+      src : "Cantina2.png",
+      alt : "Gerenciamento Cantina",
+      title : "Aplicação de Gerenciamento de Cantina Escolar",
+      width: '100%',
+      height: '100%',
+      description : 'Este é um sistema desenvolvido em C# Windows Forms, utilizando Entity Framework e MySQL como banco de dados. O objetivo do sistema é permitir a gestão de pedidos de refeições para crianças, facilitando o controle de reservas, pagamentos e entrega dos produtos.',
+      links: [
+        {
+          name: 'Acesso o repositório',
+          href: 'https://github.com/wagner2700/Software-Shirley'
+        }
+      ]
     }
     
   ])
